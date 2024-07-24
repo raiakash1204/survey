@@ -111,7 +111,7 @@ option {
     color: #ffffff;
 }
 
-input[type="submit"] {
+#submit {
     display: block;
     width: 60%;
     margin: 1em auto;
@@ -126,7 +126,7 @@ input[type="submit"] {
     transition: background-color 0.3s ease, box-shadow 0.3s ease, font-size 0.3s ease, width 0.3s ease;
 }
 
-input[type="submit"]:hover {
+#submit:hover {
     background-color: rgba(255,2,2,0.6);
     box-shadow: 0 0 15px rgba(255,0,0,0.5);
     width:62%;
