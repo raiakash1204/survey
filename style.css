@@ -14,7 +14,6 @@ h1, p {
 
 h1 {
     font-size: 3em;
-    -webkit-text-stroke: 1px #000;
     text-shadow:0 0 10px #d60202;
 }
 
@@ -86,7 +85,7 @@ input[type="number"] {
 input:focus,
 select:focus,
 textarea:focus {
-    box-shadow: 0 0 10px rgba(255, 255,255,0.5);
+    box-shadow: 0 0 15px rgba(255, 255,255,0.5);
 }
 
 input[type="radio"]+.inline,
