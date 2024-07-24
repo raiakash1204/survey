@@ -85,7 +85,7 @@ input[type="number"] {
 input:focus,
 select:focus,
 textarea:focus {
-    box-shadow: 0 0 15px rgba(255, 255,255,0.5);
+    box-shadow: 0 0 10px rgba(255, 255,255,0.5);
 }
 
 input[type="radio"]+.inline,
@@ -110,8 +110,7 @@ option {
     margin-right: 1em;
     color: #ffffff;
 }
-
-#submit {
+#submit{
     display: block;
     width: 60%;
     margin: 1em auto;
@@ -130,4 +129,11 @@ option {
     background-color: rgba(255,2,2,0.6);
     box-shadow: 0 0 15px rgba(255,0,0,0.5);
     width:62%;
+}
+a{text-decoration:none;}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
 }
